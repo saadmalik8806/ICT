@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>IT Asset Disposition in Today’s Circular Economy</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+
+    <style>
+        /* FONT */
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        /* OVERALL */
+
+        * {
+            /* border: 1px solid yellow; */
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: #000000;
+            text-decoration: underline !important;
+        }
+
+        /*
+
+            " CS " Means " Custom Style " 
+
+            EX:  CS_Form = CUSTOM STYLE FOR FORM
+
+        */
+
+        /* HEADER */
+
+        img[alt="Logo"] {
+            width: 150px;
+        }
+
+        .CS_Back .CS_Blur {
+            backdrop-filter: blur(2px);
+        }
+
+        .CS_Back {
+            background: url("./images/bg.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover !important;
+            height: 55vh;
+        }
+
+        /* TITLE */
+
+        .CS_Title h1 {
+            color: #ffffff;
+            /* text-shadow: grey 1px 0 10px; */
+            border-left: 7px solid #EC912D;
+            /* border-right: 7px solid #EC912D; */
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            padding: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .CS_Back .col-12 {
+            height: 20% !important;
+        }
+
+        .CS_Title {
+            height: 80% !important;
+        }
+
+        /* ABSTRACT */
+
+        main {
+            background-image: url('./images/back.png');
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            background-size: auto 100%;
+        }
+
+        .CS_Abstract {
+            box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25);
+            background-color: #fff;
+            margin-top: -35px;
+            margin-bottom: -35px;
+        }
+
+        .CS_Layer {
+            background-color: #EC912D;
+            box-shadow: rgb(0 0 0 / 30%) -0px 17px 30px, rgb(0 0 0 / 22%) -0px 25px 30px;
+        }
+
+        .CS_Abstract h4 b {
+            border-bottom: 5px solid #EC912D;
+            padding-bottom: 8px;
+            margin-bottom: 10px;
+        }
+
+        /* FORM */
+
+        .CS_Form_Background {
+            background-color: #E7E7E7;
+            box-shadow: 0 0 1px 1px #ccc;
+        }
+
+        .CS_Form_Header {
+            font-weight: 600;
+            font-style: italic;
+            text-align: center;
+        }
+
+        .form-control,
+        select {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        label {
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+
+        .CS_Optin {
+            text-align: justify;
+        }
+
+        button[type="submit"] {
+            background-color: #EC912D;
+            color: #fff;
+            font-weight: 600;
+            text-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        /* THUMB */
+
+        img[alt="Thumb"] {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+            box-shadow: rgb(0 0 0 / 30%) -25px 17px 32px, rgb(0 0 0 / 22%) -20px 25px 4px;
+            width: 60%;
+            min-width: 350px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color: #E7E7E7;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="sticky-top" style="background: linear-gradient(90deg,#1B243677 0%, #46526177 100%);box-shadow: 0 0 2px 2px rgba(240, 242, 244, 0.2);/*border: 2px solid rgba(240, 242, 244, 0.2);*/margin-bottom: -90px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="col-12 my-3 py-1 d-flex align-items-center">
+                        <a href="#">
+                            <img class="img-fluid " src="./images/wlogo.png" width="130">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="CS_Back pb-5 d-flex align-items-center justify-content-center">
+
+        <div class="container py-5">
+
+            <div class="row py-5 mt-5">
+
+
+                <div class="col-12 text-center CS_Title ">
+
+                    <h1 class="d-inline-block mx-auto">
+                        IT Asset Disposition in Today’s Circular Economy
+                    </h1>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <main>
+        <div class="container">
+
+            <div class="row inline-flex">
+
+                <div class="col-lg-6 col-xl-5 mx-auto mb-5  my-md-4 pt-lg-5 order-3 order-lg-1">
+                    <div class="CS_Form_Background p-2">
+
+                    <div class="p-4" id="hubspotFormContainer" style="border: 2px solid #00000066;">
+    <h5 class="CS_Form_Header py-2">
+        Download the Whitepaper
+    </h5>
+    <div id="hubspotForm"></div>
+</div>
+                    </div>
+                </div>
+
+                <div class=" col-lg-6 d-flex align-items-center py-5 mb-3 my-md-4 mb-md-auto order-2  order-lg-2">
+
+                    <img class="img-fluid" src="./images/thumb.png" alt="Thumb">
+
+                </div>
+
+                <div class=" col-12 order-1 order-lg-3 ">
+                    <section class="row py-2 pt-5 py-md-5">
+
+                        <div class="col-12 CS_Layer my-5 px-5">
+                            <div class="row ">
+
+                                <!-- ABSTRACT + THUMB -->
+
+                                <div class="col-12  CS_Abstract py-5 px-4 px-md-5">
+                                    <h4 class="pb-4">
+                                        <b>About Whitepaper</b>
+                                    </h4>
+
+                                    <p>
+                                    This paper aims to elevate the understanding of ITAD by establishing new standards that better align with the needs of a more sustainable circular economy. It highlights the significant risks associated with improper ITAD, including fines and litigation costs associated with data breaches, environmental harm from illegal dumping, and negative audit outcomes when handled incorrectly. We offer comprehensive insights for corporate governance at various levels to promote an environmentally and socially responsible approach to asset utilization and disposal. This transforms ITAD from a cost burden to a profit center by enhancing organizational productivity and reclaiming residual value for the technology budget. This paper also examines the perils of Do-It-Yourself asset disposition and the accompanying risks of non-compliance with various industry, data security, and environmental regulations. Then we discuss criteria for selecting a competent managed ITAD service provider, focusing on their ability to determine the reusability of IT assets and their use of appropriate certified recyclers when those assets cannot be reused. Lastly, we present universally applicable strategies to mitigate the risks of inadequate ITAD enabling companies to avoid potentially costly pitfalls while simultaneously minimizing service costs, maximizing the recovery of residual value, minimizing environmental impact, and maximizing positive social outcomes, thus gaining a competitive advantage in the dynamic corporate environment
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="pb-2">
+        <div class="container-fluid px-5">
+            <div class="row">
+
+                <div class="col-12 py-3">
+                    <p class="text-center p-0 m-0">
+                        © 2024
+                        <a href="https://ictcompany.com/">
+                            ICT
+                        </a> | All Rights Reserved. | Services Rendered By :
+                        <a href="https://www.digitalzone.com/">
+                            Tumalla Technologies 
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+    
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+    // Function to load the HubSpot form into the specified container
+    function loadHubSpotForm() {
+        hbspt.forms.create({
+            region: "na1",
+            portalId: "5680619",
+            formId: "50e55cc2-b223-4089-b46b-2e63413897e9",
+            target: '#hubspotForm' // Specify the target container
+        });
+    }
+
+    // Call the function to load the HubSpot form when the page is loaded
+    window.onload = loadHubSpotForm;
+</script>
+</body>
+
+</html>
